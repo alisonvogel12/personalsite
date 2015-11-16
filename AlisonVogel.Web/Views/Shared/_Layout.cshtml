@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/alisonStlye.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <header>
+        @Html.Partial("NavBar")
+        <img src="~/Files/SiteImage_V2.png" class="img-responsive">
+    </header>
+    <br />
+    <br />
+    <div>
+        @RenderBody()
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <footer class="footer">
+        <div id="navs" class="text-muted" style="text-align: center;">
+            <ul>
+                <li><a href="https://www.facebook.com/alison.ridgway.7" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/alison-vogel-ba03b335" target="_blank"><i class="fa fa-linkedin-square"></i> </a></li>
+                <li><a href="https://www.instagram.com/alison_vogel/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
