@@ -33,15 +33,6 @@ footer {
     padding-right: 40px;
 }
 
-
-#navs li:before {
-   
-}
-
-#navs li:after {
-   
-}
-
 #navs  a:link, a:visited {
     content: disc;
     display: block;
@@ -63,7 +54,6 @@ footer {
   font-weight: bold;
   color: black;
 }
-
 
 .btn.outline {
     background: none;
