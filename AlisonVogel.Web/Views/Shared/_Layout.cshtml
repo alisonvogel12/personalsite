@@ -8,11 +8,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
 </head>
-
 <body>
     <header>
         @Html.Partial("NavBar")
-        <img src="~/Files/Optimized-SiteImage_V2.png" class="img-responsive">
+        <img src="~/Files/Optimized-SiteImage_V2.png" class="img-responsive hidden-xs" style="max-width:100%">
+        <img src="~/Files/SiteImage_SmallScreen.png" class="img-responsive visible-xs" style="max-width:100%">
     </header>
     <br />
     <br />
@@ -22,7 +22,6 @@
     <br />
     <br />
     <br />
-
     <footer class="footer">
         <div id="navs" class="text-muted" style="text-align: center;">
             <ul>

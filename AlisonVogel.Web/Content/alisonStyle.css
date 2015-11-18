@@ -6,11 +6,16 @@ html {
 body {
   margin-bottom: 50px;
 }
+
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 50px;
+}
+
+li:active, a:active{
+    font-weight:bold;
 }
 
 #navs ul {
@@ -31,6 +36,10 @@ footer {
     display: inline-block;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+#navs li:active{
+    font-weight:bold;
 }
 
 #navs  a:link, a:visited {
@@ -72,8 +81,3 @@ footer {
     color: #007299;
     box-shadow: none;
 }
-
-
-
-
-
