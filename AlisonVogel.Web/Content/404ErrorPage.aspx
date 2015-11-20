@@ -1,22 +1,19 @@
-﻿<% Response.StatusCode = 404 %>
+﻿<% Response.StatusCode = 404%>
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width" />
-    <title>404 Error</title>
+    <title>Error</title>
 </head>
 <body>
-    <div class="container" style="text-align:center;">
+    <div class="container" style="text-align: center;">
         <br />
         <br />
-        <h2>Oops! Can't find that page. aspx</h2>
+        <h2>Oops! Can't find that page.</h2>
         <br />
         <br />
-        <div>
-           <!-- <a href='@Url.Action("Index", "Home")' class="btn btn-primary outline" role="button">Back to Home Page</a>-->
-        </div>
-        <br />
-        <br />
+        <a href="http://www.alisonvogel.com/" class="btn btn-primary outline" role="button">Back to Home Page</a>
     </div>
 </body>
 </html>

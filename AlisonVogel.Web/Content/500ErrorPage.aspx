@@ -4,16 +4,16 @@
 <head>
 
     <meta name="viewport" content="width=device-width" />
-    <title>500 Error</title>
+    <title>Error</title>
 </head>
 <body>
     <div class="container" style="text-align:center;">
         <br />
         <br />
-        <h2>Oops! 500 Error page.</h2>
-
+        <h2>Oops! Something went wrong.</h2>
         <br />
         <br />
+        <a href="http://www.alisonvogel.com/" class="btn btn-primary outline" role="button">Back to Home Page</a>
     </div>
 </body>
 </html>
