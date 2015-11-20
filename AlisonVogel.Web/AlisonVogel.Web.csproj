@@ -108,7 +108,6 @@
     <Content Include="Files\Optimized-SiteImage_V2.png" />
     <Content Include="Files\ProfileImage.jpg" />
     <Content Include="Files\SiteImage_SmallScreen.png" />
-    <Content Include="Files\SiteImage_V2.png" />
     <Content Include="Global.asax" />
     <Content Include="Files\AlisonVogelResume.pdf" />
     <Content Include="Web.config" />
@@ -129,7 +128,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="packages.config" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Community\Index.cshtml" />
     <Content Include="Views\Resume\Index.cshtml" />
@@ -147,7 +145,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Errors\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

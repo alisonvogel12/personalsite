@@ -9,7 +9,6 @@ namespace AlisonVogel.Web.HtmlHelpers
             string classValue = "";
 
             string currentController = helper.ViewContext.Controller.ValueProvider.GetValue("controller").RawValue.ToString();
-            //string currentAction = helper.ViewContext.Controller.ValueProvider.GetValue("action").RawValue.ToString();
 
             if (currentController == controller)
             {

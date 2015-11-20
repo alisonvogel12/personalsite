@@ -44,3 +44,12 @@ body {
         color: #007299;
         box-shadow: none;
     }
+
+ul {
+    list-style-type:disc;
+    
+}
+li {
+    padding-bottom:25px;
+}
+
