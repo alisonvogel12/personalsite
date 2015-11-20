@@ -6,6 +6,7 @@ namespace AlisonVogel.Web.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Home";
             return View();
         }
 
