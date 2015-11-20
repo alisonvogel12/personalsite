@@ -1,5 +1,4 @@
-﻿using AlisonVogel.Web.Infrastructure;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,13 +12,6 @@ namespace AlisonVogel.Web.Controllers
         {
             return View();
         }
-
-        [TestException]
-        public string Test()
-        {
-            throw new ArgumentOutOfRangeException();
-        }
-
 
     }
 }

@@ -100,6 +100,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\404ErrorPage.html" />
+    <Content Include="Content\500ErrorPage.aspx" />
     <Content Include="Content\alisonStyle.css" />
     <Content Include="Content\alisonStyle.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -108,7 +110,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="Content\ErrorPage.html" />
+    <Content Include="Content\404ErrorPage.aspx" />
     <Content Include="Files\Optimized-SiteImage_V2.png" />
     <Content Include="Files\ProfileImage.jpg" />
     <Content Include="Files\SiteImage_SmallScreen.png" />
@@ -143,16 +145,15 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ResumeController.cs" />
     <Compile Include="Controllers\CommunityController.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Infrastructure\TestExceptionAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HtmlHelpers\HtmlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -164,7 +165,8 @@
     <Content Include="Views\Shared\NavBar.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\ErrorPage.cshtml" />
+    <Content Include="Views\Shared\error.cshtml" />
+    <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -174,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Errors\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
