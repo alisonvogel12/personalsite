@@ -102,8 +102,9 @@
   <ItemGroup>
     <Content Include="Content\404ErrorPage.html" />
     <Content Include="Content\500ErrorPage.aspx" />
-    <Content Include="Content\alisonStyle.css" />
+    <Content Include="Content\site_style.css" />
     <Content Include="Content\404ErrorPage.aspx" />
+    <Content Include="Content\navbar_style.css" />
     <Content Include="Files\Optimized-SiteImage_V2.png" />
     <Content Include="Files\ProfileImage.jpg" />
     <Content Include="Files\SiteImage_SmallScreen.png" />
