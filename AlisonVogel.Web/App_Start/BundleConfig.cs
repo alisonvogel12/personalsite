@@ -14,10 +14,10 @@ namespace AlisonVogel.Web.App_Start
                 StyleBundle siteCSS = new StyleBundle("~/Content/siteCSS");
                 siteCSS.Include("~/Content/navbar_style.css",
                   "~/Content/site_style.css");
-
                 bundles.Add(siteCSS);
                 BundleTable.EnableOptimizations = true;
             }
         }
+
     }
 }
