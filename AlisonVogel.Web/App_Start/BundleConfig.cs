@@ -15,6 +15,11 @@ namespace AlisonVogel.Web.App_Start
                 siteCSS.Include("~/Content/navbar_style.css",
                   "~/Content/site_style.css");
                 bundles.Add(siteCSS);
+
+                ScriptBundle siteJS = new ScriptBundle("~/Scripts/siteJS");
+                siteJS.Include("~/Scripts/jquery-2.1.4.min.js", "~/Scripts/bootstrap.min.js");
+                bundles.Add(siteJS);
+
                 BundleTable.EnableOptimizations = true;
             }
         }
