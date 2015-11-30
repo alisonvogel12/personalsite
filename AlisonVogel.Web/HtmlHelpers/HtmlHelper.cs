@@ -2,15 +2,15 @@
 
 namespace AlisonVogel.Web.HtmlHelpers
 {
-    public static class HtmlHelperExt
+    public static class HtmlHelperClass
     {
-        public static string ActivePage(this HtmlHelper helper, string controller)
+        public static string ActiveMenuItem(this HtmlHelper helper, string menuItem)
         {
             string classValue = "";
 
-            string currentController = helper.ViewContext.Controller.ValueProvider.GetValue("controller").RawValue.ToString();
+            string clickedMenuItem = helper.ViewContext.Controller.ValueProvider.GetValue("controller").RawValue.ToString();
 
-            if (currentController == controller)
+            if (menuItem == clickedMenuItem)
             {
                 classValue = "selecteditem";
             }
