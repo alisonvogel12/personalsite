@@ -1,18 +1,16 @@
 ﻿<div class="container">
     <div class="row">
-        <div class="col-sm-12">
-            <div class="col-sm-8">
-                <h2>Welcome to my personal website!</h2>
-                <h2>
-                    <small>These few brief pages are here to help you learn more about me. If you happen to be in a hurry - check out these quick links to see my resume or to send me an e-mail. Enjoy!</small>
-                </h2>
-            </div>
-            <div class="col-sm-4 verticalcenter2">
-                <a href='@Url.Action("ViewResume", "Resume")' class="btn btn-primary outline btn-block" role="button">Download Resume</a>
-               <br />
-                 @{ var email = "mailto:" + "alison.vogel12@gmail.com";}
-                <a href="@email" class="btn btn-primary outline btn-block" target="_blank">E-Mail Me</a>
-            </div>
+        <div class="col-sm-8">
+            <h2>Welcome to my personal website!</h2>
+            <h2>
+                <small>These few brief pages are here to help you learn more about me. If you happen to be in a hurry - check out these quick links to see my resume or to send me an e-mail. Enjoy!</small>
+            </h2>
+        </div>
+        <div class="col-sm-4 verticalcenter2">
+            <a href='@Url.Action("ViewResume", "Resume")' class="btn btn-primary outline btn-block" role="button">Download Resume</a>
+            <br />
+            @{ var email = "mailto:" + "alison.vogel12@gmail.com";}
+            <a href="@email" class="btn btn-primary outline btn-block" target="_blank">E-Mail Me</a>
         </div>
     </div>
 </div>

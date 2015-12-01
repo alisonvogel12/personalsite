@@ -2,26 +2,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    @Scripts.Render("~/Scripts/siteJS")
     @Styles.Render("~/Content/siteCSS")
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    @Styles.Render("~/Content/bootstrapCSS")
+    @Styles.Render("~/Content/fontawesomeCSS")
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Html.Partial("GoogleAnalytics")
 </head>
 <body>
     <header>
-        @Html.Partial("NavBar")
-        <img src="~/Files/Optimized-SiteImage_V2.png" class="img-responsive hidden-xs">
-        <img src="~/Files/SiteImage_SmallScreen.png" class="img-responsive visible-xs">
+        @Html.Partial("_NavBar")
+        <img src="@Url.Content("~/Files/Optimized-SiteImage_V2.png")" class="img-responsive hidden-xs">
+        <img src="@Url.Content("~/Files/SiteImage_SmallScreen.png")" class="img-responsive visible-xs">
     </header>
     <br />
     <br />
     <div>
         @RenderBody()
     </div>
+    <br>
+    <br />
     <br />
     <footer class="footer">
         <div id="navs" class="center hidden-xs">
@@ -32,6 +32,8 @@
             </ul>
         </div>
     </footer>
+    @Scripts.Render("~/Scripts/siteJS")
+    @Html.Partial("_GoogleAnalytics")
 </body>
 </html>
 

@@ -103,9 +103,11 @@
     <Content Include="Content\500ErrorPage.html" />
     <Content Include="Content\404ErrorPage.html" />
     <Content Include="Content\500ErrorPage.aspx" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\site_style.css" />
     <Content Include="Content\404ErrorPage.aspx" />
     <Content Include="Content\navbar_style.css" />
+    <Content Include="Content\font-awesome.css" />
     <Content Include="Files\Optimized-SiteImage_V2.png" />
     <Content Include="Files\ProfileImage.jpg" />
     <Content Include="Files\SiteImage_SmallScreen.png" />
@@ -135,10 +137,10 @@
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Community\Index.cshtml" />
     <Content Include="Views\Resume\Index.cshtml" />
-    <Content Include="Views\Shared\NavBar.cshtml" />
+    <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\GoogleAnalytics.cshtml" />
+    <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
